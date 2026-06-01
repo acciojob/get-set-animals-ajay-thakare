@@ -10,21 +10,21 @@ class Animal {
 		return this._species;
 	}
 
-	set makeSound(): void{
+	 makeSound(): void{
 		console.log(`the ${this._species} makes a sound`);
 	}
 }
 
 class Cat extends Animal {
 	purr():void{
-		console.log('purr');
+		console.log("purr");
 	}
 }
 
 
 class Dog extends Animal {
 	bark(): void{
-		console.log('woof');
+		console.log("woof");
 	}
 }
 
