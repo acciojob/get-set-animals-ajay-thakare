@@ -6,11 +6,11 @@ class Animal {
 		this.species = species;
 	}
 
-	get species: string(){
+	get species(): string{
 		return this.species;
 	}
 
-	set makeSound: void(){
+	set makeSound(): void{
 		console.log(`the ${this.species} makes a sound`);
 	}
 }
